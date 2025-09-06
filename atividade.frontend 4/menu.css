@@ -1,0 +1,23 @@
+.menu a{
+    background-color: black;
+    color: purple;
+    width:400px;
+    height:35px ;
+    margin: 20px;
+    padding:20px ;
+    border: 2px solid purple;
+
+
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow : 1px 1px 20px purple;
+    transition: 0.3s;
+
+}
+.menu a:hover{
+    background-color: purple;
+    color: black;
+}
